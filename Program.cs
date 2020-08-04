@@ -8,6 +8,8 @@ namespace csharp
         {
             string inputPlayer, inputCPU;
             int randomInt;
+            int scorePlayer = 0;
+            int scoreCPU = 0;
 
             Console.Write("choose between rock, paper and scissors:    ");
             inputPlayer = Console.ReadLine();
