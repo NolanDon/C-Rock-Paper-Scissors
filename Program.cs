@@ -9,7 +9,7 @@ namespace csharp
             string inputPlayer, inputCPU;
             int randomInt;
 
-            Console.Write("choose between rock, paper and scissors");
+            Console.Write("choose between rock, paper and scissors:    ");
             inputPlayer = Console.ReadLine();
 
             Random rnd = new Random();
@@ -62,6 +62,7 @@ namespace csharp
                 }
                 break;
                 default:
+                Console.WriteLine("Invalid Entry")
                 break;
             }
         }
